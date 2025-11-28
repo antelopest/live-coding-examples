@@ -17,3 +17,35 @@ const arrOfK = (nums: number[], k: number): number[] => {
 
 console.log(arrOfK([1, 1, 1, 2, 2, 3], 2));
 console.log(arrOfK([1, 2, 3, 4, 5], 2));
+
+// bucket sort
+const bucketSortArrOfK = (nums: number[], k: number): number[] => {
+  const map = new Map<number, number>();
+
+  for (const n of nums) {
+    map.set(n, (map.get(n) || 0) + 1);
+  }
+
+  const buckets: number[][] = Array(nums.length + 1)
+    .fill(null)
+    .map(() => []);
+
+  for (const [num, freq] of map.entries()) {
+    buckets[freq].push(num);
+  }
+
+  const result: number[] = [];
+
+  for (let freq = buckets.length - 1; freq >= 0 && result.length < k; freq--) {
+    if (buckets[freq].length > 0) {
+      result.push(...buckets[freq]);
+    }
+  }
+
+  return result.slice(0, k);
+}
+
+console.log(bucketSortArrOfK([1, 1, 1, 2, 2, 3], 2));
+console.log(bucketSortArrOfK([1, 2, 3, 4, 5], 2));
+
+// bucket sort
