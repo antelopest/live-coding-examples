@@ -8,4 +8,4 @@
 4. -
 5. -
 6. -
-7. [Найти индексы элементов суммы]()
+7. [Найти индексы элементов суммы](./hack-frontend/008.%20findDeepestMaxElement/findDeepestMaxElement.md)
