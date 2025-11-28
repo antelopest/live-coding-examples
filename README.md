@@ -4,4 +4,8 @@
 
 1. [К наиболее частых элементов](./hack-frontend/001.%20ArrOfK/arrOfK.md).
 2. [Группировка анаграмм](./hack-frontend/002.%20GroupAnagrams/groupAnagrams.md)
-3. [Извлечение нод по типу]
+3. [Извлечение нод по типу](./hack-frontend/003.%20GetNodes/getNodes.md)
+4. -
+5. -
+6. -
+7. [Найти индексы элементов суммы]()
