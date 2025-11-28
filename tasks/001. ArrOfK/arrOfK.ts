@@ -47,5 +47,3 @@ const bucketSortArrOfK = (nums: number[], k: number): number[] => {
 
 console.log(bucketSortArrOfK([1, 1, 1, 2, 2, 3], 2));
 console.log(bucketSortArrOfK([1, 2, 3, 4, 5], 2));
-
-// bucket sort
