@@ -10,5 +10,7 @@
 6. -
 7. [Найти индексы элементов суммы](./hack-frontend/008.%20findDeepestMaxElement/findDeepestMaxElement.md)
 8. [Найти самый глубокий максимальный элемент](./hack-frontend/008.%20findDeepestMaxElement/findDeepestMaxElement.md)
-9. 12
-10. [Получить значение из объекта по пути]
+9. -
+10. [Получить значение из объекта по пути](./hack-frontend/010.%20Get/Get.md)
+11. -
+12. -
