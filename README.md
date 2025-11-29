@@ -6,7 +6,7 @@
 2. [Группировка анаграмм](./hack-frontend/002.%20GroupAnagrams/groupAnagrams.md)
 3. [Извлечение нод по типу](./hack-frontend/003.%20GetNodes/getNodes.md)
 4. -
-5. -
+5. [Капитализация слов в строке](./hack-frontend/005.%20Capitalize/capitalize.md)
 6. -
 7. [Найти индексы элементов суммы](./hack-frontend/008.%20findDeepestMaxElement/findDeepestMaxElement.md)
 8. [Найти самый глубокий максимальный элемент](./hack-frontend/008.%20findDeepestMaxElement/findDeepestMaxElement.md)
