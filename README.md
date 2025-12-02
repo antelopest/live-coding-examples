@@ -2,17 +2,17 @@
 
 ## Список задач из HackFrontend:
 
-1. [К наиболее частых элементов](./hack-frontend/001.%20ArrOfK/arrOfK.md).
-2. [Группировка анаграмм](./hack-frontend/002.%20GroupAnagrams/groupAnagrams.md)
-3. [Извлечение нод по типу](./hack-frontend/003.%20GetNodes/getNodes.md)
+1. [К наиболее частых элементов](./hack-frontend/001.%20ArrOfK/).
+2. [Группировка анаграмм](./hack-frontend/002.%20GroupAnagrams/)
+3. [Извлечение нод по типу](./hack-frontend/003.%20GetNodes/)
 4. Калькулятор обратной польской нотации
-5. [Капитализация слов в строке](./hack-frontend/005.%20Capitalize/capitalize.md)
-6. [Конкатенация строк из объектов](./hack-frontend/006.%20GetConcated/getConcated.md)
-7. [Найти индексы элементов суммы](./hack-frontend/008.%20findDeepestMaxElement/findDeepestMaxElement.md)
-8. [Найти самый глубокий максимальный элемент](./hack-frontend/008.%20findDeepestMaxElement/findDeepestMaxElement.md)
-9. [Поиск строк с подстрокой](./hack-frontend/009.%20findSubstring/findSubsring.md)
-10. [Получить значение из объекта по пути](./hack-frontend/010.%20Get/Get.md)
-11. [Построение маршрута](./hack-frontend/011.%20GetRoute/getRoute.md)
+5. [Капитализация слов в строке](./hack-frontend/005.%20Capitalize/)
+6. [Конкатенация строк из объектов](./hack-frontend/006.%20GetConcated/)
+7. [Найти индексы элементов суммы](./hack-frontend/008.%20findDeepestMaxElement/)
+8. [Найти самый глубокий максимальный элемент](./hack-frontend/008.%20findDeepestMaxElement/)
+9. [Поиск строк с подстрокой](./hack-frontend/009.%20findSubstring/)
+10. [Получить значение из объекта по пути](./hack-frontend/010.%20Get/)
+11. [Построение маршрута](./hack-frontend/011.%20GetRoute/)
 12. Проверка корректности скобок
 13. Проверка на анаграммы
 14. Проверка на панграмму
