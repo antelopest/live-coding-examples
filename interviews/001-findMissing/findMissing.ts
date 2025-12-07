@@ -4,7 +4,7 @@ const randomNumber: number = Math.floor(Math.random() * 100) + 1;
 arr[randomNumber] = undefined;
 
 // Найти пропущенное значение
-const findPass = (arr: (number | undefined)[]): number | null => {
+const findMissing = (arr: (number | undefined)[]): number | null => {
   const set = new Set(arr);
   let n: number | null = null; 
 
@@ -20,12 +20,12 @@ const findPass = (arr: (number | undefined)[]): number | null => {
   return n;
 }
 
-console.log(findPass(arr));
+console.log(findMissing(arr));
 
 
 // Самое эффективное решение
 // Высчитать сумму всех чисел, вычесть текущую сумму чисел, получить разницу и вернуть
-const effictiveFindPass = (arr: (number | undefined)[]): number => {
+const effictiveFindMissing = (arr: (number | undefined)[]): number => {
   const s = (100 * 101) / 2;
 
   const sum = arr.reduce((acc: number, v: number | undefined): number => {
@@ -39,4 +39,4 @@ const effictiveFindPass = (arr: (number | undefined)[]): number => {
   return s - sum;
 }
 
-console.log(effictiveFindPass(arr));
+console.log(effictiveFindMissing(arr));
