@@ -14,7 +14,6 @@ const flatten = (array: any[]): number[] => {
   }
 
   return result.reverse();
-
 }
 
 console.log(flatten([0, [1, [2, 3]], 4])); // [0, 1, 2, 3, 4]
